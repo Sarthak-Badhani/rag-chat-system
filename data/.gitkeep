@@ -1,0 +1,6 @@
+# This directory is used for:
+# - Uploaded PDF documents
+# - FAISS vector indexes (data/index/)
+# - Embedding cache (data/cache/)
+#
+# These files are auto-generated and should not be committed to git.

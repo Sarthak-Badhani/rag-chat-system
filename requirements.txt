@@ -1,0 +1,44 @@
+# ============================================================================
+# Chat with Your Documents - Requirements
+# ============================================================================
+# A production-quality RAG system for document question-answering
+# ============================================================================
+
+# Core Framework
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-text-splitters>=0.2.0
+
+# LLM Providers
+langchain-openai>=0.1.0          # For OpenAI API integration
+langchain-huggingface>=0.0.3     # For HuggingFace models
+
+# Vector Store
+faiss-cpu>=1.7.4                  # Facebook AI Similarity Search
+
+# Document Processing
+pypdf>=3.17.0                     # PDF text extraction
+unstructured>=0.10.0              # Advanced document parsing (optional)
+
+# Embeddings (HuggingFace - runs locally)
+sentence-transformers>=2.2.0      # Local embedding models
+transformers>=4.35.0              # HuggingFace transformers
+torch>=2.0.0                      # PyTorch (CPU version)
+
+# Web Interface
+streamlit>=1.28.0                 # Web UI framework
+
+# Configuration & Utilities
+python-dotenv>=1.0.0              # Environment variable management
+pydantic>=2.0.0                   # Data validation
+
+# Logging & Monitoring
+loguru>=0.7.0                     # Enhanced logging (optional)
+
+# Development & Testing (optional)
+pytest>=7.4.0                     # Testing framework
+pytest-cov>=4.1.0                 # Test coverage
+black>=23.10.0                    # Code formatting
+isort>=5.12.0                     # Import sorting
+mypy>=1.6.0                       # Type checking
