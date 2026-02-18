@@ -1,6 +1,6 @@
 # Chat with Your Documents
 
-A production-quality **Retrieval-Augmented Generation (RAG)** system that allows users to upload PDF documents and ask questions about them. Built with clean architecture principles and designed for AI engineering portfolios.
+A production-quality **Retrieval-Augmented Generation (RAG)** system that allows users to upload PDF documents and ask questions about them. 
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![LangChain](https://img.shields.io/badge/LangChain-0.2+-green.svg)](https://langchain.com/)
@@ -139,7 +139,7 @@ rag-chat-system/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/rag-chat-system.git
+   git clone https://github.com/Sarthak-Badhani/rag-chat-system.git
    cd rag-chat-system
    ```
 
@@ -365,7 +365,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [LangChain](https://langchain.com/) for the RAG framework
 - [OpenAI](https://openai.com/) for embedding and LLM APIs
